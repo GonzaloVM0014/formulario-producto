@@ -1,0 +1,10 @@
+Guia de instalación
+
+1. Descargar e instalar XAMPP
+2. Descargar proyecto de https://github.com/GonzaloVM0014/formulario-producto
+3. Dirigirse a la carpeta xampp creada al instalar el software
+4. Abrir carpeta htdocs
+5. Copiar o mover proyecto a la carpeta htdocs
+6. Abrir Panel de Control de XAMPP
+7. Presionar botón Start en Apache
+8. Abrir http://localhost/nombre_del_proyecto/index.html en su navegador

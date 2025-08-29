@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const response = await fetch('guardar_producto.php?action=cargar_opciones');
             const data = await response.json();
 
-            valor_por_defecto(bodegaSel, '-');
+            valor_por_defecto(bodegaSel, '');
             data.bodegas.forEach(bodega =>{
                 const option = document.createElement('option');
                 option.value = bodega.id_bodega;
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 bodegaSel.appendChild(option);
             });
 
-            valor_por_defecto(monedaSel, '-');
+            valor_por_defecto(monedaSel, '');
             data.monedas.forEach(moneda =>{
                 const option = document.createElement('option');
                 option.value = moneda.id_moneda;
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     bodegaSel.addEventListener('change', async () => {
         const bodega_id = bodegaSel.value;
 
-        valor_por_defecto(sucursalSel, '-');
+        valor_por_defecto(sucursalSel, '');
         sucursalSel.disabled = true;
         if (bodega_id) {
             try {

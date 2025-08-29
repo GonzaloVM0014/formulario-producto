@@ -49,6 +49,11 @@ INSERT INTO sucursales (nombre, id_bodega) VALUES
 ('Sucursal 3', 2);
 ('Sucursal 4', 2);
 ('Sucursal 5', 3);
+('Sucursal 6', 3);
+('Sucursal 7', 4);
+('Sucursal 8', 4);
+('Sucursal 9', 4);
+('Sucursal 10', 4);
 
 INSERT INTO monedas (nombre, simbolo) VALUES
 ('Dólar', 'USD'),

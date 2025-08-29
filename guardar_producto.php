@@ -36,7 +36,7 @@ if(isset($_GET['action'])) {
             $bodegaId = $_GET['bodega_id'] ?? null;
             $response = [];
             if ($bodegaId) {
-                $stmt = $pdo->prepare("SELECT id_sucursal, nombre FROM sucursales WHERE id_bodega = ? ORDER BY nombre");
+                $stmt = $pdo->prepare("SELECT id_sucursal, nombre FROM sucursales WHERE id_bodega = ? ORDER BY id_sucursal");
                 $stmt->execute([$bodegaId]);
                 $response = $stmt->fetchAll(PDO::FETCH_ASSOC);
             }
