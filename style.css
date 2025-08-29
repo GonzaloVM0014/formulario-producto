@@ -1,0 +1,82 @@
+*{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.cont-formulario{
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;        
+}
+
+
+.formulario{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+.cont-inputs{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+.cont-labels{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.cont-labels label{
+    margin-bottom: 8px;
+}
+
+.cont-labels input,
+.cont-labels select,
+.cont-labels textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.checkbox input{
+    margin-right: 15px;
+}
+.checkbox{    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-guardar{
+    display: flex;
+    justify-content: center;
+}
+#guardar{
+    background-color: #1aab8a;
+    color: white;
+    border: none;
+    padding: 20px 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin: 0 auto;
+}

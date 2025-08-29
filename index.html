@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Producto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont-formulario">
+        <form id="formulario" class="formulario">
+            <h1>Formulario de Producto</h1>
+            <div class="cont-inputs">
+                <div class="cont-labels">
+                    <label for="codigo">Código</label>
+                    <input type="text" id="codigo" name="codigo">
+                </div>
+                <div class="cont-labels">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div class="cont-labels">
+                    <label for="bodega">Bodega</label>
+                    <select name="bodega" id="bodega"></select>
+                </div>
+                <div class="cont-labels">
+                    <label for="sucursal">Sucursal</label>
+                    <select name="sucursal" id="sucursal"></select>
+                </div>
+                <div class="cont-labels">
+                    <label for="moneda">Moneda</label>
+                <select name="moneda" id="moneda"></select>
+                </div>
+                <div class="cont-labels">
+                    <label for="precio">Precio</label>
+                    <input type="text" id="precio" name="precio">
+                </div>
+            </div>
+            <div class="cont-labels">
+                <label for="material">Material del Producto</label>
+                <div class="checkbox">
+                    <label><input type="checkbox" name="material" value="1"> Plástico</label>
+                    <label><input type="checkbox" name="material" value="2"> Metal</label>
+                    <label><input type="checkbox" name="material" value="3"> Madera</label>
+                    <label><input type="checkbox" name="material" value="4"> Vidrio</label>
+                    <label><input type="checkbox" name="material" value="5"> Textil </label>
+                </div>
+            </div>
+            <div class="cont-labels">
+                <label for="descripcion">Descripcion</label>
+                <textarea name="descripcion" id="descripcion"></textarea>
+            </div>
+            <div class="btn-guardar">
+                <button type="submit" id="guardar">Guardar Producto</button>
+            </div>
+            
+    </form>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
