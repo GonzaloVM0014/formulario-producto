@@ -52,6 +52,10 @@ h1 {
     border-radius: 4px;
     font-size: 14px;
 }
+.cont-material{
+    margin-top: 10px;
+    
+}
 
 .checkbox input{
     margin-right: 15px;
@@ -61,6 +65,7 @@ h1 {
     flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .btn-guardar{
