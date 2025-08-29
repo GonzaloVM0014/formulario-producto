@@ -1,10 +1,28 @@
+Version de PHP: 8.0.30
+
+Requisitos previos:
+
+- Servidor web con PHP: XAMPP
+- Base de datos: PostgreSQL
+
+
 Guia de instalación
 
-1. Descargar e instalar XAMPP
-2. Descargar proyecto de https://github.com/GonzaloVM0014/formulario-producto
-3. Dirigirse a la carpeta xampp creada al instalar el software
-4. Abrir carpeta htdocs
-5. Copiar o mover proyecto a la carpeta htdocs
-6. Abrir Panel de Control de XAMPP
-7. Presionar botón Start en Apache
-8. Abrir http://localhost/nombre_del_proyecto/index.html en su navegador
+1. Descargar proyecto de https://github.com/GonzaloVM0014/formulario-producto
+2. Abrir carpeta htdocs dentro de la carpeta xammp
+3. Copiar o mover proyecto a la carpeta htdocs
+4. Ingresar a PostgreSQL y crear base de datos para el proyecto
+5. Ingresar a Query tool dentro de la base de datos
+6. Copiar, pegar y ejecutar el codigo del archivo "database.sql" dentro de la carpeta del proyecto en la pestaña de QueryTool
+7. Abrir archivo "guardar_producto.php" dentro de la carpeta del proyecto.
+8. Editar la configuracion inicial de la base de datos segun su sistema.
+	$db_host = 'localhost';
+	$db_name = 'nombre_de_su_base_de_datos';
+	$db_user = 'usuario_de_su_base_de_datos';
+	$db_pass = 'clave_de_su_base_de_datos';
+	$db_port = '5432';
+
+9. Abrir Panel de Control de XAMPP
+10. Presionar botón Start en Apache
+11. Abrir http://localhost/nombre_del_proyecto/index.html en su navegador (Reemplazar "nombre_del_proyecto" según como se guardo el proyecto dentro de la carpeta htdocs)
+12. Usar Programa
