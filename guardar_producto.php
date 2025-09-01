@@ -1,9 +1,9 @@
 <?php
 header('Content-Type: application/json');
 $db_host = 'localhost';
-$db_name = 'nombre_de_su_base_de_datos'; //cambiar nombre base de datos segun su sistema
-$db_user = 'usuario_de_su_base_de_datos';  //cambiar usuario  segun su sistema
-$db_pass = 'clave_de_su_base_de_datos';    //cambiar clave segun su sistema
+$db_name = 'prueba_tecnica'; //cambiar nombre base de datos segun su sistema
+$db_user = 'postgres';  //cambiar usuario  segun su sistema
+$db_pass = 'sqlchalo';    //cambiar clave segun su sistema
 $db_port = '5432';
 
 try {
